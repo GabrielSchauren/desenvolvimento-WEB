@@ -1,0 +1,28 @@
+html {
+  background-color: rgb(255, 0, 0);
+}
+
+.container-pai {
+  height: 280px;
+  width: 620px;
+  background-color: aquamarine;
+}
+
+.container-filho {
+  height: 140px;
+  width: 310px;
+  position: relative;
+  bottom: 10px;
+  top: 100px;
+  left: 10px;
+  background-color: chartreuse;
+}
+
+.container-filho-dois {
+  height: 140px;
+  width: 310px;
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  background-color: rgb(150, 0, 187);
+}
