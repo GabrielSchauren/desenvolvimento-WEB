@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div id="container">
+            <h2 id="titulo-principal">Listas de Tarefas</h2>
+            <form onsubmit="criarTarefa(event)">
+                <label>Tarefa</label>
+                <input type="text" id="input-tarefa" placeholder="Digite uma tarefa">
+                <button type="submit" id="btn-criar">Criar</button>
+            </form>
+            <ul id="lista-tarefas"></ul>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
